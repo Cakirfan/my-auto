@@ -1,0 +1,95 @@
+
+
+/*! Kontakt START */
+
+@media (min-width: 768px) { /* Adjust this value based on your theme's breakpoints */
+  .responsive-container {
+    min-width: 720px; /* Adjust this value to match Bootstrap's 'md' container width or any custom width you desire */
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/*! Kontakt END */
+
+/*? ---------------------------------------------------------------------------- */
+
+/*! CarouselTop START */
+
+.custom-progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background-color: #97c0e2;
+  width: 0%; /* Genişlik başlangıçta sıfır */
+  z-index: 10; /* Yüksek bir z-index değeri */
+  animation: progressBar 9s linear infinite;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0%; /* Genişlik animasyon başlangıcında %0 */
+  }
+  100% {
+    width: 100%; /* Genişlik animasyon bitiminde %100 */
+  }
+}
+
+/*! CarouselTop END */
+
+/*? ---------------------------------------------------------------------------- */
+
+/*! Angebote START */
+
+.hover-scale:hover {
+  transform: scale(1.1);
+}
+
+/*! Angebote END */
+
+/*? ---------------------------------------------------------------------------- */
+
+/*! Footer START */
+
+footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+footer img {
+  max-width: 100px;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+  color: #343a40;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: #343a40;
+}
+
+footer a:hover {
+  color: #0056b3;
+}
+
+/*! Footer END */
+
+/*? ---------------------------------------------------------------------------- */
