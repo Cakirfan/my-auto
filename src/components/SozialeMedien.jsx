@@ -24,7 +24,7 @@ const SozialeMedien = () => {
   const sozialIcons = [
     {
       title: "Star",
-      href: "https://wa.me/4915511111111",
+      href: "",
       icon: faStar,
     },
     {
