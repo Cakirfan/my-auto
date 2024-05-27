@@ -15,7 +15,7 @@ const AutoDetail = () => {
     <div className="container-fluid bg-secondary-subtle pb-1">
       <Container className="py-2">
         <Link to="/" className="btn btn-primary mb-3">
-          Back to Angebote
+          zur Angebote
         </Link>
         <div>
           <h3 className="text-uppercase text-secondary">{card.name}</h3>
