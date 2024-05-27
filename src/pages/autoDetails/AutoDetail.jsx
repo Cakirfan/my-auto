@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import cards  from "../../helper/data";
+import cards from "../../helper/data";
 import { useState } from "react";
 import DetailSection from "./core/DetailSection";
 import FeatureSection from "./core/FeatureSection";
@@ -18,7 +18,10 @@ const AutoDetail = () => {
           zur Angebote
         </Link>
         <div>
-          <h3 className="text-uppercase text-secondary">{card.name}</h3>
+          <h3 className="text-uppercase">
+            <span>{card.marke}</span> -{" "}
+            <span className=" text-secondary">{card.model}</span>
+          </h3>
           <hr />
           <Row className="my-4">
             <Col
