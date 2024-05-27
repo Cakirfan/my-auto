@@ -5,6 +5,8 @@ import { useState } from "react";
 import DetailSection from "./core/DetailSection";
 import FeatureSection from "./core/FeatureSection";
 import ImageSlider from "./core/ImageSlider";
+import SozialeMedien from "../../components/SozialeMedien";
+import Equipment from "./core/Equipment";
 
 const AutoDetail = () => {
   const { id } = useParams();
@@ -17,13 +19,17 @@ const AutoDetail = () => {
         <Link to="/" className="btn btn-primary mb-3">
           zur Angebote
         </Link>
-        <div>
-          <h3 className="text-uppercase">
-            <span>{card.marke}</span> -{" "}
-            <span className=" text-secondary">{card.model}</span>
-          </h3>
+        <section>
+          <div className="d-flex justify-content-between">
+            <h3 className="text-uppercase">
+              <span>{card.marke}</span> -{" "}
+              <span className=" text-secondary">{card.model}</span>
+            </h3>
+            <SozialeMedien />
+          </div>
+
           <hr />
-          <Row className="my-4">
+          <Row className="mt-4">
             <Col
               md={3}
               className="bg-white p-3 rounded rounded-2 shadow-lg mb-2"
@@ -46,8 +52,11 @@ const AutoDetail = () => {
               <FeatureSection features={card.features} />
             </Col>
           </Row>
-        </div>
+        </section>
       </Container>
+      <section>
+        <Equipment details={card.equipment} />
+      </section>
     </div>
   );
 };
