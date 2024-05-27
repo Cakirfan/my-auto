@@ -43,7 +43,7 @@ const leistungen = [
 
 const Footer = () => {
   return (
-    <footer className="border-top border-4 border-success shadow-lg bg-secondary-subtle">
+    <footer className="border-top border-4 border-success shadow-lg bg-dark-subtle pt-5">
       <Container>
         <Row>
           <Col sm={12} md={12} lg={4} className="mb-3">
