@@ -44,7 +44,7 @@ const Angebote = () => {
                 </div>
                 <Card.Body>
                   <Card.Title className="bg-info py-1 px-2">
-                    {card.name}
+                    {card.marke}
                   </Card.Title>
                   <Card.Text as="div">
                     <Row>
@@ -53,14 +53,14 @@ const Angebote = () => {
                           <div key={index} className="mb-2">
                             <OverlayTrigger
                               placement="top"
-                              overlay={renderTooltip(null, detail.label)}
+                              overlay={renderTooltip(null, detail.label1)}
                             >
                               <small
                                 style={{ cursor: "pointer" }}
                                 className="d-flex flex-column text-center my-3"
                               >
                                 <FontAwesomeIcon icon={detail.icon} />{" "}
-                                {detail.label}
+                                {detail.label1}
                               </small>
                             </OverlayTrigger>
                           </div>
@@ -71,14 +71,14 @@ const Angebote = () => {
                           <div key={index} className="mb-2">
                             <OverlayTrigger
                               placement="top"
-                              overlay={renderTooltip(null, detail.label)}
+                              overlay={renderTooltip(null, detail.label1)}
                             >
                               <small
                                 style={{ cursor: "pointer" }}
                                 className="d-flex flex-column text-center my-3"
                               >
                                 <FontAwesomeIcon icon={detail.icon} />{" "}
-                                {detail.label}
+                                {detail.label1}
                               </small>
                             </OverlayTrigger>
                           </div>
