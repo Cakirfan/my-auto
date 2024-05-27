@@ -8,11 +8,11 @@ const DetailSection = ({ details }) => (
         <div key={idx} className="py-1 d-flex align-items-center">
           <FontAwesomeIcon icon={detail.icon} className="mx-2" />{" "}
           <div
-            className="w-100 d-flex justify-content-between text-uppercase"
+            className="w-100 fw-semibold d-flex justify-content-between text-uppercase"
             style={{ fontSize: ".9rem" }}
           >
-            <span className="">{detail.label1}</span>
-            <span className="fw-semibold">{detail.label2}</span>
+            <span className="text-secondary">{detail.label1}</span>
+            <span>{detail.label2}</span>
           </div>
         </div>
         <hr />
