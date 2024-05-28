@@ -101,6 +101,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Schaltgetriebe" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "331 kW (450 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -146,6 +149,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Automatik" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "45,000 km" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -191,6 +197,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Automatik" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "290 kW (394 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -236,6 +245,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Automatik" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "331 kW (450 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -281,6 +293,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Automatik" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "230 kW (313 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -326,6 +341,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Automatik" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "568 kW (778 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -371,6 +389,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Automatik" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "173 kW (235 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -416,6 +437,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Schaltgetriebe" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "339 kW (461 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -461,6 +485,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Automatik" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "150 kW (204 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -506,6 +533,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Automatik" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "143 kW (194 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -555,6 +585,9 @@ const cards = [
       { icon: faClock, label1: "Getriebe", label2: "Automatik" },
       { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
       { icon: faBolt, label1: "Leistung", label2: "120 kW (163 PS)" },
+      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
