@@ -1,4 +1,4 @@
-import Angebote from "../components/Angebote"
+import Angebote from "../components/carAngebote/Angebote"
 import CarouselTop from "../components/CarouselTop"
 import FahrzeugSuchen from "../components/FahrzeugSuchen"
 import Finanzierung from "../components/Finanzierung"
