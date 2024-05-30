@@ -8,12 +8,14 @@ const myNavbar = () => {
   return (
     <Navbar expand="lg" className="bg-success fixed-top">
       <Container>
-        <Navbar.Brand href="#home">
-          <img
-            src="https://cdn.pixabay.com/photo/2013/07/13/01/11/passenger-car-155267_640.png"
-            alt=""
-            width={100}
-          />
+        <Navbar.Brand>
+          <Link to="/">
+            <img
+              src="https://cdn.pixabay.com/photo/2013/07/13/01/11/passenger-car-155267_640.png"
+              alt=""
+              width={100}
+            />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav bg-danger">
