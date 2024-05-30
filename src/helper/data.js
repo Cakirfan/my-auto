@@ -16,17 +16,35 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2018/06/21/22/51/mercedes-3489627_640.jpg",
     marke: "Mercedes",
     model: "Mercedes-Benz A",
+    aaa: [
+      {
+        icon: faCalendarAlt,
+        prise: "Mercedes",
+        kilometerstand: "Mercedes",
+        fahrzeugzustand: "Mercedes",
+        erstzulassung: "Mercedes",
+        leistung: "Mercedes",
+        kraftstoff: "Mercedes",
+        besitzer: "Mercedes",
+        getriebe: "Mercedes",
+        kraftstoffverbrauch: "Mercedes",
+        fahrzeugtyp: "Mercedes",
+        anzahltüren: "Mercedes",
+        außenfarbe: "Weiß",
+        umweltplakette: "",
+      },
+    ],
     details: [
-      { icon: faCalendarAlt, label1: "Erstzulassung", label2: "Oktober 2022" },
-      { icon: faTachometerAlt, label1: "Kilometerstand", label2: "35,000 km" },
-      { icon: faCar, label1: "Zustand", label2: "Unb. Fahrzeug" },
-      { icon: faGasPump, label1: "Kraftstoffart", label2: "Diesel" },
-      { icon: faClock, label1: "Getriebe", label2: "Automatik" },
-      { icon: faCog, label1: "Fahrzeugtyp", label2: "Sedan" },
-      { icon: faBolt, label1: "Leistung", label2: "117 kW (130 PS)" },
-      { icon: faDoorOpen, label1: "Anzahl Türen", label2: "4/5" },
-      { icon: faGolfBallTee, label1: "Umweltplakette", label2: "4(Grün)" },
-      { icon: faPalette, label1: "Außenfarbe", label2: "Weiß" },
+      { icon: faCalendarAlt, label: "Erstzulassung", label2: "Oktober 2022" },
+      { icon: faTachometerAlt, label: "Kilometerstand", label2: "35,000 km" },
+      { icon: faCar, label: "Zustand", label2: "Unb. Fahrzeug" },
+      { icon: faGasPump, label: "Kraftstoffart", label2: "Diesel" },
+      { icon: faClock, label: "Getriebe", label2: "Automatik" },
+      { icon: faCog, label: "Fahrzeugtyp", label2: "Sedan" },
+      { icon: faBolt, label: "Leistung", label2: "117 kW (130 PS)" },
+      { icon: faDoorOpen, label: "Anzahl Türen", label2: "4/5" },
+      { icon: faGolfBallTee, label: "Umweltplakette", label2: "4(Grün)" },
+      { icon: faPalette, label: "Außenfarbe", label2: "Weiß" },
     ],
     equipment: [
       "Einparkhilfe",
@@ -623,4 +641,781 @@ const cards = [
   },
 ];
 
-export default cards;
+const cars = [
+  {
+    marke: "Mercedes",
+    model: "Mercedes-Benz A",
+    preis: "23,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "Oktober 2022",
+      },
+      {
+        label: "kilometerstand",
+        value: "35,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Unfallfrei",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Diesel",
+      },
+      {
+        label: "getriebe",
+        value: "Automatik",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Sedan",
+      },
+      {
+        label: "leistung",
+        value: "117 kW (160 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "5",
+      },
+      {
+        label: "außenfarbe",
+        value: "Weiß",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Einparkhilfe",
+      "Klimaanlage",
+      "Radio/Tuner",
+      "Tempomat",
+      "Xenon/LED-Scheinwerfer",
+      "Navigationssystem",
+      "Bluetooth",
+      "Antiblockiersystem (ABS)",
+    ],
+    features: [
+      "Sparsamer Kraftstoffverbrauch",
+      "Hohe Sicherheitsbewertung",
+      "Luxuriöses Interieur",
+      "Erweiterte Garantieoptionen",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2018/06/21/22/51/mercedes-3489627_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/09/11/16/47/car-1661767_640.jpg",
+      "https://cdn.pixabay.com/photo/2019/08/08/23/33/car-4393990_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/29/10/01/vw-bulli-1868890_640.jpg",
+    ],
+  },
+  {
+    marke: "Mercedes",
+    model: "Mercedes-Benz B",
+    preis: "45,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "Mai 2024",
+      },
+      {
+        label: "kilometerstand",
+        value: "1,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Unfallfrei",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Benzin",
+      },
+      {
+        label: "getriebe",
+        value: "Automatik",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Sedan",
+      },
+      {
+        label: "leistung",
+        value: "117 kW (160 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "5",
+      },
+      {
+        label: "außenfarbe",
+        value: "Rot",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Einparkhilfe",
+      "Klimaanlage",
+      "Radio/Tuner",
+      "Tempomat",
+      "Xenon/LED-Scheinwerfer",
+      "Navigationssystem",
+      "Bluetooth",
+      "Antiblockiersystem (ABS)",
+    ],
+    features: [
+      "Sparsamer Kraftstoffverbrauch",
+      "Hohe Sicherheitsbewertung",
+      "Luxuriöses Interieur",
+      "Erweiterte Garantieoptionen",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2018/06/21/22/51/mercedes-3489627_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/09/11/16/47/car-1661767_640.jpg",
+      "https://cdn.pixabay.com/photo/2019/08/08/23/33/car-4393990_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/29/10/01/vw-bulli-1868890_640.jpg",
+    ],
+  },
+  {
+    marke: "BMW",
+    model: "BMW 3 Series",
+    preis: "17,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "Juli 2021",
+      },
+      {
+        label: "kilometerstand",
+        value: "20,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Gebraucht",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Benzin",
+      },
+      {
+        label: "getriebe",
+        value: "Automatik",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Limousine",
+      },
+      {
+        label: "leistung",
+        value: "135 kW (184 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "4",
+      },
+      {
+        label: "außenfarbe",
+        value: "Schwarz",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Lederausstattung",
+      "Sitzheizung",
+      "Head-Up Display",
+      "Navigationssystem",
+      "Einparkhilfe Kamera",
+      "Bluetooth",
+      "Tempomat",
+    ],
+    features: [
+      "Sportpaket",
+      "Premium Audio System",
+      "Sicherheitspaket",
+      "Komfortzugang",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2016/11/18/12/51/automobile-1834274_640.jpg",
+    ],
+  },
+  {
+    marke: "Audi",
+    model: "Audi A4",
+    preis: "25,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "Mai 2022",
+      },
+      {
+        label: "kilometerstand",
+        value: "15,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Neuwertig",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Diesel",
+      },
+      {
+        label: "getriebe",
+        value: "Manuell",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Kombi",
+      },
+      {
+        label: "leistung",
+        value: "110 kW (150 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "5",
+      },
+      {
+        label: "außenfarbe",
+        value: "Blau",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Klimaautomatik",
+      "Panoramadach",
+      "Sportlenkrad",
+      "Xenon Scheinwerfer",
+      "Bluetooth",
+      "Antiblockiersystem (ABS)",
+    ],
+    features: [
+      "Langstreckenfähig",
+      "Hochwertige Innenraummaterialien",
+      "Gutes Handling",
+      "Effiziente Motorisierung",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_640.jpg",
+    ],
+  },
+  {
+    marke: "Volkswagen",
+    model: "VW Golf",
+    preis: "15,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "August 2020",
+      },
+      {
+        label: "kilometerstand",
+        value: "25,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Unfallfrei",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Elektro",
+      },
+      {
+        label: "getriebe",
+        value: "Automatik",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Hatchback",
+      },
+      {
+        label: "leistung",
+        value: "100 kW (136 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "5",
+      },
+      {
+        label: "außenfarbe",
+        value: "Weiß",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Automatische Distanzregelung",
+      "Klimaautomatik",
+      "LED-Scheinwerfer",
+      "Navigationssystem",
+      "Bluetooth",
+      "Elektrische Fensterheber",
+    ],
+    features: [
+      "Effizienter Elektroantrieb",
+      "Modernes Infotainmentsystem",
+      "Geringe Betriebskosten",
+      "Umweltfreundlich",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2017/03/20/04/57/truck-2158284_640.png",
+    ],
+  },
+  {
+    marke: "Ford",
+    model: "Ford Focus",
+    preis: "33,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "März 2023",
+      },
+      {
+        label: "kilometerstand",
+        value: "10,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Gebraucht",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Benzin",
+      },
+      {
+        label: "getriebe",
+        value: "Manuell",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Sedan",
+      },
+      {
+        label: "leistung",
+        value: "92 kW (125 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "4",
+      },
+      {
+        label: "außenfarbe",
+        value: "Rot",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Klimaautomatik",
+      "Tempomat",
+      "Multifunktionslenkrad",
+      "Bluetooth",
+      "Navigationssystem",
+      "Rückfahrkamera",
+    ],
+    features: [
+      "Zuverlässiges Fahrverhalten",
+      "Kompaktes Stadtauto",
+      "Geringer Kraftstoffverbrauch",
+      "Gute Ausstattung",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2016/11/18/17/20/counseling-1837280_640.jpg",
+    ],
+  },
+  {
+    marke: "Toyota",
+    model: "Toyota Camry",
+    preis: "17,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "Januar 2021",
+      },
+      {
+        label: "kilometerstand",
+        value: "30,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Unfallfrei",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Hybrid",
+      },
+      {
+        label: "getriebe",
+        value: "Automatik",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Sedan",
+      },
+      {
+        label: "leistung",
+        value: "155 kW (211 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "4",
+      },
+      {
+        label: "außenfarbe",
+        value: "Silber",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Hybridantrieb",
+      "Lederpolsterung",
+      "Navigationssystem",
+      "Rückfahrkamera",
+      "Keyless Entry",
+      "Bluetooth",
+    ],
+    features: [
+      "Niedriger Kraftstoffverbrauch",
+      "Hoher Fahrkomfort",
+      "Geräumiger Innenraum",
+      "Zuverlässige Technik",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2022/04/05/08/47/car-7111560_640.jpg",
+    ],
+  },
+  {
+    marke: "Nissan",
+    model: "Nissan Sentra",
+    preis: "20,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "Februar 2022",
+      },
+      {
+        label: "kilometerstand",
+        value: "5,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Wie neu",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Benzin",
+      },
+      {
+        label: "getriebe",
+        value: "Automatik",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Sedan",
+      },
+      {
+        label: "leistung",
+        value: "110 kW (150 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "4",
+      },
+      {
+        label: "außenfarbe",
+        value: "Grau",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Navigationssystem",
+      "Bluetooth",
+      "LED-Scheinwerfer",
+      "Keyless Entry",
+      "Rückfahrkamera",
+    ],
+    features: [
+      "Zuverlässige Technik",
+      "Komfortable Fahreigenschaften",
+      "Gutes Preis-Leistungs-Verhältnis",
+      "Moderne Ausstattung",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2021/04/04/11/52/car-6148109_640.jpg",
+    ],
+  },
+  {
+    marke: "Honda",
+    model: "Honda Civic",
+    preis: "26,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "Juni 2023",
+      },
+      {
+        label: "kilometerstand",
+        value: "3,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Neuwertig",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Benzin",
+      },
+      {
+        label: "getriebe",
+        value: "Manuell",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Coupe",
+      },
+      {
+        label: "leistung",
+        value: "123 kW (167 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "2",
+      },
+      {
+        label: "außenfarbe",
+        value: "Blau",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Klimaautomatik",
+      "Tempomat",
+      "Lederpolsterung",
+      "Sportfahrwerk",
+      "Multifunktionslenkrad",
+    ],
+    features: [
+      "Sportliches Design",
+      "Hochwertige Innenausstattung",
+      "Agiles Fahrverhalten",
+      "Effiziente Motoren",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278_640.jpg",
+    ],
+  },
+  {
+    marke: "Hyundai",
+    model: "Hyundai Sonata",
+    preis: "19,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "Oktober 2021",
+      },
+      {
+        label: "kilometerstand",
+        value: "12,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Gebraucht",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Benzin",
+      },
+      {
+        label: "getriebe",
+        value: "Automatik",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Sedan",
+      },
+      {
+        label: "leistung",
+        value: "140 kW (190 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "4",
+      },
+      {
+        label: "außenfarbe",
+        value: "Schwarz",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Panoramadach",
+      "Navigationssystem",
+      "Heizbare Vordersitze",
+      "LED-Scheinwerfer",
+      "Keyless Entry",
+    ],
+    features: [
+      "Elegantes Design",
+      "Komfortable Innenraumausstattung",
+      "Zuverlässig im Stadtverkehr",
+      "Gute Sicherheitsbewertungen",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_640.jpg",
+    ],
+  },
+  {
+    marke: "Chevrolet",
+    model: "Chevrolet Malibu",
+    preis: "21,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "Dezember 2022",
+      },
+      {
+        label: "kilometerstand",
+        value: "7,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Neuwertig",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Benzin",
+      },
+      {
+        label: "getriebe",
+        value: "Automatik",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Sedan",
+      },
+      {
+        label: "leistung",
+        value: "186 kW (253 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "4",
+      },
+      {
+        label: "außenfarbe",
+        value: "Weiß",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Klimaautomatik",
+      "Rückfahrkamera",
+      "Ledersitze",
+      "Bluetooth",
+      "Tempomat",
+    ],
+    features: [
+      "Starke Motorleistung",
+      "Hochwertige Materialien",
+      "Breites Technologieangebot",
+      "Geräumiger Innenraum",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2017/03/20/04/57/truck-2158284_640.png",
+    ],
+  },
+  {
+    marke: "Mazda",
+    model: "Mazda 6",
+    preis: "24,000",
+    details: [
+      {
+        label: "erstzulassung",
+        value: "April 2022",
+      },
+      {
+        label: "kilometerstand",
+        value: "18,000 km",
+      },
+      {
+        label: "fahrzeugzustand",
+        value: "Gebraucht",
+      },
+      {
+        label: "kraftstoffart",
+        value: "Diesel",
+      },
+      {
+        label: "getriebe",
+        value: "Manuell",
+      },
+      {
+        label: "fahrzeugtyp",
+        value: "Sedan",
+      },
+      {
+        label: "leistung",
+        value: "121 kW (165 PS)",
+      },
+      {
+        label: "anzahltüren",
+        value: "4",
+      },
+      {
+        label: "außenfarbe",
+        value: "Rot",
+      },
+      {
+        label: "umweltplakette",
+        value: "4 (Grün)",
+      },
+    ],
+    equipment: [
+      "Klimaanlage",
+      "Navigationssystem",
+      "Elektrische Sitze",
+      "Alufelgen",
+      "Sitzheizung",
+    ],
+    features: [
+      "Elegantes Außendesign",
+      "Gute Kraftstoffeffizienz",
+      "Hervorragende Fahrdynamik",
+      "Komfortable Kabine",
+    ],
+    images: [
+      "https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_640.jpg",
+    ],
+  },
+];
+
+export { cards, cars };

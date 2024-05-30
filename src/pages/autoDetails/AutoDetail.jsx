@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import cards from "../../helper/data";
+import { cars } from "../../helper/data";
 import { useState } from "react";
 import DetailSection from "./core/DetailSection";
 import FeatureSection from "./core/FeatureSection";
@@ -10,8 +10,8 @@ import Equipment from "./core/Equipment";
 
 const AutoDetail = () => {
   const { id } = useParams();
-  const card = cards[id];
-  const [selectedImage, setSelectedImage] = useState(card.images[0]);
+  const car = cars[id];
+  const [selectedImage, setSelectedImage] = useState(car.images[0]);
 
   return (
     <div className="container-fluid bg-secondary-subtle pb-1">
@@ -22,8 +22,8 @@ const AutoDetail = () => {
         <section>
           <div className="d-flex justify-content-between">
             <h3 className="text-uppercase">
-              <span>{card.marke}</span> -{" "}
-              <span className=" text-secondary">{card.model}</span>
+              <span>{car.marke}</span> -{" "}
+              <span className=" text-secondary">{car.model}</span>
             </h3>
             <SozialeMedien />
           </div>
@@ -35,11 +35,11 @@ const AutoDetail = () => {
               className="bg-white p-3 rounded rounded-2 shadow-lg mb-2"
               style={{ height: "36rem" }}
             >
-              <DetailSection details={card.details} />
+              <DetailSection details={car.details} car={car} />
             </Col>
             <Col md={6} className="mb-2" style={{ height: "35rem" }}>
               <ImageSlider
-                images={card.images}
+                images={car.images}
                 selectedImage={selectedImage}
                 setSelectedImage={setSelectedImage}
               />
@@ -49,13 +49,13 @@ const AutoDetail = () => {
               className="bg-white p-3 rounded rounded-2 shadow-lg"
               style={{ height: "36rem" }}
             >
-              <FeatureSection features={card.features} />
+              <FeatureSection features={car.features} />
             </Col>
           </Row>
         </section>
       </Container>
       <section>
-        <Equipment details={card.equipment} />
+        <Equipment details={car.equipment} />
       </section>
     </div>
   );
