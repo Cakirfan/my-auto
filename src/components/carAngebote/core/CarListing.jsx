@@ -234,7 +234,7 @@ const CarListing = ({ filteredCars, renderTooltip }) => {
             boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
             zIndex: 1000,
           }}
-          className="rounded rounded-2"
+          className="rounded rounded-2 shadow-lg"
         >
           <div className="d-flex justify-content-between align-items-center p-1 border-bottom">
             <strong className="py-2">Angebote teilen</strong>
