@@ -130,7 +130,10 @@ const CarListing = ({ filteredCars, renderTooltip }) => {
                   <Col xs={12} sm={8}>
                     <Card.Body>
                       <Card.Title className="bg-info py-1 px-2 d-flex justify-content-between align-items-center">
-                        {car.marke}
+                        <div>
+                          <span>{car.marke}</span> -{" "}
+                          <span className="text-secondary fs-6">{car.model}</span>
+                        </div>
                         <Button
                           variant="link"
                           className="text-decoration-none text-danger"
