@@ -6,7 +6,6 @@ const FeatureSection = ({ features }) => (
        <p key={idx}>{feature}</p> 
        <hr />
       </div>
-      
     ))}
   </div>
 );
