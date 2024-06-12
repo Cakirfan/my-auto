@@ -16,24 +16,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2018/06/21/22/51/mercedes-3489627_640.jpg",
     marke: "Mercedes",
     model: "Mercedes-Benz A",
-    aaa: [
-      {
-        icon: faCalendarAlt,
-        prise: "Mercedes",
-        kilometerstand: "Mercedes",
-        fahrzeugzustand: "Mercedes",
-        erstzulassung: "Mercedes",
-        leistung: "Mercedes",
-        kraftstoff: "Mercedes",
-        besitzer: "Mercedes",
-        getriebe: "Mercedes",
-        kraftstoffverbrauch: "Mercedes",
-        fahrzeugtyp: "Mercedes",
-        anzahltüren: "Mercedes",
-        außenfarbe: "Weiß",
-        umweltplakette: "",
-      },
-    ],
+    datum: "11.03.2024",
     details: [
       { icon: faCalendarAlt, label: "Erstzulassung", label2: "Oktober 2022" },
       { icon: faTachometerAlt, label: "Kilometerstand", label2: "35,000 km" },
@@ -111,6 +94,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2012/11/02/13/02/car-63930_640.jpg",
     marke: "Ford",
     model: "Ford Mustang",
+    datum: "01.02.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "Mai 2021" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "20,000 km" },
@@ -159,6 +143,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2016/08/02/14/51/audi-1563570_1280.jpg",
     marke: "Audi",
     model: "Audi Q7",
+    datum: "21.03.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "Januar 2020" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "20,000 km" },
@@ -207,6 +192,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2022/07/08/22/46/bmw-x5-7309969_640.jpg",
     marke: "BMW",
     model: "BMW X5",
+    datum: "25.04.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "März 2021" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "30,000 km" },
@@ -255,6 +241,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2018/04/22/17/24/porsche-911-3341711_640.jpg",
     marke: "Porsche",
     model: "Porsche 911",
+    datum: "17.05.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "August 2019" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "25,000 km" },
@@ -303,6 +290,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2016/08/02/15/18/lexus-1563694_640.jpg",
     marke: "Lexus",
     model: "Lexus RX",
+    datum: "11.02.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "Juli 2021" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "28,000 km" },
@@ -351,6 +339,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2021/12/23/09/18/tesla-6889042_640.jpg",
     marke: "Tesla",
     model: "Tesla Model S",
+    datum: "03.06.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "Dezember 2021" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "15,000 km" },
@@ -399,6 +388,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2018/10/07/21/56/volvo-3731469_640.jpg",
     marke: "Volvo",
     model: "Volvo XC90",
+    datum: "12.06.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "Februar 2021" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "32,000 km" },
@@ -447,6 +437,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2015/12/28/23/35/auto-1112183_1280.jpg",
     marke: "Chevrolet",
     model: "Chevrolet Camaro",
+    datum: "22.05.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "April 2021" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "22,000 km" },
@@ -495,6 +486,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2017/11/12/16/32/toyota-land-cruiser-2943058_640.jpg",
     marke: "Toyota",
     model: "Toyota Land Cruiser",
+    datum: "30.05.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "November 2020" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "40,000 km" },
@@ -543,6 +535,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2016/11/19/17/14/automobile-1840414_640.jpg",
     marke: "Mazda",
     model: "Mazda CX-5",
+    datum: "11.01.2024",
     details: [
       { icon: faCalendarAlt, label1: "Erstzulassung", label2: "Juni 2021" },
       { icon: faTachometerAlt, label1: "Kilometerstand", label2: "18,000 km" },
@@ -591,6 +584,7 @@ const cards = [
     img: "https://cdn.pixabay.com/photo/2017/11/24/20/39/nissan-gtr-2975651_640.jpg",
     marke: "Nissan",
     model: "Nissan Qashqai",
+    datum: "19.06.2024",
     details: [
       {
         icon: faCalendarAlt,
@@ -646,6 +640,7 @@ const cars = [
     marke: "Mercedes",
     model: "Mercedes-Benz A",
     preis: "23,000",
+    datum: "11.03.2024",
     details: [
       {
         label: "erstzulassung",
@@ -709,12 +704,38 @@ const cars = [
       "https://cdn.pixabay.com/photo/2016/09/11/16/47/car-1661767_640.jpg",
       "https://cdn.pixabay.com/photo/2019/08/08/23/33/car-4393990_640.jpg",
       "https://cdn.pixabay.com/photo/2016/11/29/10/01/vw-bulli-1868890_640.jpg",
+      "https://cdn.pixabay.com/photo/2019/08/08/23/33/car-4393990_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/29/10/01/vw-bulli-1868890_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/01/18/14/02/old-car-1146597_640.png",
+      "https://cdn.pixabay.com/photo/2016/02/13/13/11/oldtimer-1197800_640.jpg",
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_640.jpg",
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_640.jpg",
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_640.jpg",
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_640.jpg",
+      "https://cdn.pixabay.com/photo/2013/07/13/11/48/bmw-158703_640.png",
+      "https://cdn.pixabay.com/photo/2016/09/11/16/47/car-1661767_640.jpg",
+      "https://cdn.pixabay.com/photo/2019/08/08/23/33/car-4393990_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/29/10/01/vw-bulli-1868890_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/01/18/14/02/old-car-1146597_640.png",
+      "https://cdn.pixabay.com/photo/2016/02/13/13/11/oldtimer-1197800_640.jpg",
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_640.jpg",
+      "https://cdn.pixabay.com/photo/2013/07/13/11/48/bmw-158703_640.png",
+      "https://cdn.pixabay.com/photo/2016/09/11/16/47/car-1661767_640.jpg",
+      "https://cdn.pixabay.com/photo/2019/08/08/23/33/car-4393990_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/29/10/01/vw-bulli-1868890_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/01/18/14/02/old-car-1146597_640.png",
+      "https://cdn.pixabay.com/photo/2016/02/13/13/11/oldtimer-1197800_640.jpg",
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_640.jpg",
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_640.jpg",
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_640.jpg",
+      "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_640.jpg",
     ],
   },
   {
     marke: "Mercedes",
     model: "Mercedes-Benz B",
     preis: "45,000",
+    datum: "31.04.2024",
     details: [
       {
         label: "erstzulassung",
@@ -784,6 +805,7 @@ const cars = [
     marke: "BMW",
     model: "BMW 3 Series",
     preis: "17,000",
+    datum: "11.06.2024",
     details: [
       {
         label: "erstzulassung",
@@ -849,6 +871,7 @@ const cars = [
     marke: "Audi",
     model: "Audi A4",
     preis: "25,000",
+    datum: "21.05.2024",
     details: [
       {
         label: "erstzulassung",
@@ -913,6 +936,7 @@ const cars = [
     marke: "Volkswagen",
     model: "VW Golf",
     preis: "15,000",
+    datum: "22.04.2024",
     details: [
       {
         label: "erstzulassung",
@@ -977,6 +1001,7 @@ const cars = [
     marke: "Ford",
     model: "Ford Focus",
     preis: "33,000",
+    datum: "23.05.2024",
     details: [
       {
         label: "erstzulassung",
@@ -1041,6 +1066,7 @@ const cars = [
     marke: "Toyota",
     model: "Toyota Camry",
     preis: "17,000",
+    datum: "10.05.2024",
     details: [
       {
         label: "erstzulassung",
@@ -1105,6 +1131,7 @@ const cars = [
     marke: "Nissan",
     model: "Nissan Sentra",
     preis: "20,000",
+    datum: "15.03.2024",
     details: [
       {
         label: "erstzulassung",
@@ -1168,6 +1195,7 @@ const cars = [
     marke: "Honda",
     model: "Honda Civic",
     preis: "26,000",
+    datum: "11.06.2024",
     details: [
       {
         label: "erstzulassung",
@@ -1231,6 +1259,7 @@ const cars = [
     marke: "Hyundai",
     model: "Hyundai Sonata",
     preis: "19,000",
+    datum: "10.02.2024",
     details: [
       {
         label: "erstzulassung",
@@ -1294,6 +1323,7 @@ const cars = [
     marke: "Chevrolet",
     model: "Chevrolet Malibu",
     preis: "21,000",
+    datum: "21.05.2024",
     details: [
       {
         label: "erstzulassung",
@@ -1357,6 +1387,7 @@ const cars = [
     marke: "Mazda",
     model: "Mazda 6",
     preis: "24,000",
+    datum: "11.06.2024",
     details: [
       {
         label: "erstzulassung",
