@@ -58,13 +58,12 @@ const ImageSlider = ({ images }) => {
         slidesPerView={1}
         navigation
         keyboard={true}
-        scrollbar={{ draggable: true }}
         controller={{ control: controlledSwiper }}
         onSwiper={(swiper) => {
           setControlledSwiper(swiper);
           swiper.on("slideChange", () => setActiveIndex(swiper.activeIndex));
         }}
-        className="mb-4"
+        className="mb-1"
       >
         {images.map((image, index) => (
           <SwiperSlide key={index} onClick={nextImage}>

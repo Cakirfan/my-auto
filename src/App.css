@@ -22,6 +22,22 @@
 
 /*? ---------------------------------------------------------------------------- */
 
+/*! AutoDetail START */
+
+.custom-image-slider-height {
+  height: 18rem;
+}
+
+@media (min-width: 768px) {
+  .custom-image-slider-height {
+    height: 35rem;
+  }
+}
+
+/*! AutoDetail END */
+
+/*? ---------------------------------------------------------------------------- */
+
 /*! Angebote START */
 
 .hover-scale:hover {

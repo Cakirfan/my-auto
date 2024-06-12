@@ -29,11 +29,11 @@ const AutoDetail = () => {
           </div>
 
           <hr />
-          <Row className="mt-4 d-flex">
+          <Row className="mt-4 d-flex flex-wrap align-content-center justify-content-center">
             <Col
-              md={6}
+              md={12}
               lg={3}
-              className="bg-white p-3 mb-2 rounded rounded-2 shadow-lg mb-2 order-2 order-md-2 order-lg-1"
+              className="bg-white mt-2 mt-lg-0 p-3 rounded rounded-2 mb-2 order-2 order-md-2 order-lg-1"
               style={{ height: "35rem" }}
             >
               <DetailSection details={car.details} car={car} />
@@ -41,8 +41,7 @@ const AutoDetail = () => {
             <Col
               md={12}
               lg={6}
-              className="mb-5 mb-lg-2 order-1 order-md-1 order-lg-2"
-              style={{ height: "35rem" }}
+              className="mb-5 mb-lg-2 order-1 order-md-1 order-lg-2 custom-image-slider-height"
             >
               <ImageSlider
                 images={car.images}
@@ -51,9 +50,9 @@ const AutoDetail = () => {
               />
             </Col>
             <Col
-              md={6}
+              md={12}
               lg={3}
-              className="bg-white p-3 mb-2 rounded rounded-2 shadow-lg order-3 order-md-3 order-lg-3"
+              className="bg-white mt-2 mt-lg-0 ms- p-3 rounded rounded-2 order-3 order-md-3 order-lg-3"
               style={{ height: "35rem" }}
             >
               <FeatureSection features={car.features} />
