@@ -12,6 +12,7 @@ import NotFound from "../pages/NotFound";
 import ErrorPage from "../pages/ErrorPage";
 import Cookies from "../pages/Cookies";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import Angebote from "../pages/carAngebote/Angebote";
 
 const AppRouter = () => {
   return (
@@ -25,6 +26,7 @@ const AppRouter = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="kontakt" element={<Kontakt />} />
+        <Route path="angebote" element={<Angebote />} />
         <Route path="/error" element={<ErrorPage />} />
         <Route element={<NotFound />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />

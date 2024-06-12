@@ -11,7 +11,6 @@ const Home = () => {
       <CarouselTop />
       <FahrzeugSuchen />
       <Finanzierung />
-      {/* <Angebote/> */}
       <LatestCars/>
     </>
   );

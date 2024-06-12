@@ -30,8 +30,9 @@ const LatestCars = () => {
   const latestCars = sortedCars.slice(0, 8);
 
   return (
-    <Container className="mt-5">
-      <h2>Neueste Autos</h2>
+    <Container className="my-5">
+      <h2 className="text-center">Neueste Autos</h2>
+      <hr className="text-center w-25 mx-auto mb-4" />
       <Row className="row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mt-3">
         {latestCars.map((car, index) => (
           <Col key={index} xl={3} lg={4} md={6} sm={12}>

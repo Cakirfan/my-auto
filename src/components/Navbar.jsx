@@ -38,21 +38,15 @@ const MyNavbar = () => {
                 START
               </Link>
             </Nav.Link>
-            <NavDropdown
-              title="FAHRZEUGE"
-              id="basic-nav-dropdown"
-              className="text-white"
-            >
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link>
+              <Link
+                to="angebote"
+                className="text-white fw-semibold"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                FAHRZEUGE
+              </Link>
+            </Nav.Link>
             <Nav.Link className="text-white" href="#link">
               GEWERBEKUNDEN
             </Nav.Link>

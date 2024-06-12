@@ -83,7 +83,7 @@ const Angebote = () => {
   const modelOptions = filters.marke ? getModelsForMarke(filters.marke) : [];
 
   return (
-    <div className="bg-danger-subtle mt-5 py-5">
+    <div className="bg-danger-subtle py-5">
       <h2 className="text-center">Aktuelle Fahrzeugangebote</h2>
       <hr className="text-center w-25 mx-auto mb-4" />
       <div className="container">
