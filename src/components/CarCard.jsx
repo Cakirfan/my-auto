@@ -5,14 +5,35 @@ import { cars } from "../helper/data";
 const CarCard = ({ car }) => {
   return (
     <Card className="mb-3">
-      <Card.Img variant="top" src={car.images[0]} style={{ height: "15rem" }} />
+      <div className="ratio ratio-4x3">
+        <Card.Img
+          variant="top"
+          src={car.images[0]}
+          className="w-100 h-100 object-fit-cover"
+        />
+      </div>
       <Card.Body>
         <div className="d-flex gap-2">
-          <Card.Text className="fs-5 fw-semibold text-uppercase">{car.marke}</Card.Text>
-          <Card.Text className="fs-5 text-secondary">{car.model}</Card.Text>
+          <Card.Text className="fw-semibold text-uppercase">
+            {car.marke}
+          </Card.Text>
+          <Card.Text className="text-secondary">{car.model}</Card.Text>
         </div>
 
-        <Card.Text>{car.details[0].value}</Card.Text>
+        <Card.Text className="fs-6" style={{ marginTop: "-1rem" }}>
+          {car.details[6].value}
+        </Card.Text>
+
+        <div className="d-flex justify-content-between">
+          <div>
+            <Card.Text>{car.details[0].value}</Card.Text>
+            <Card.Text>{car.details[3].value}</Card.Text>
+          </div>
+          <div>
+            <Card.Text>{car.details[1].value}</Card.Text>
+            <Card.Text>{car.details[4].value}</Card.Text>
+          </div>
+        </div>
       </Card.Body>
       <Card.Footer className="text-center fs-4 fw-semibold">
         <small className="text-muted">{car.preis} €</small>
