@@ -7,7 +7,6 @@ import {
   Dropdown,
   DropdownButton,
   ButtonGroup,
-  CardTitle,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
