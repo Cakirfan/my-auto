@@ -34,7 +34,7 @@ const ScrollBtn = () => {
     <div
       className={`scrollTop ${
         showScrollButton ? "active" : ""
-      } bg-black border border-2 border-white`}
+      } bg-black border border-2 border-white opacity-50`}
       onClick={scrollToTop}
     >
       <BsCapslockFill className="icon text-white" />
