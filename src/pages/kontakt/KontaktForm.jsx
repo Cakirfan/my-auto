@@ -27,37 +27,37 @@ const KontaktForm = () => {
               </Form.Group>
               <Form.Group className="mb-3" controlId="formVorname">
                 <Form.Label className="fw-semibold">Vorname</Form.Label>
-                <Form.Control type="text" placeholder="Vorname" />
+                <Form.Control type="text" placeholder="Vorname eingeben" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formStrasse">
                 <Form.Label className="fw-semibold">Straße</Form.Label>
-                <Form.Control type="text" placeholder="Straße" />
+                <Form.Control type="text" placeholder="Straße eingeben" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formPLZ">
                 <Form.Label className="fw-semibold">PLZ</Form.Label>
-                <Form.Control type="text" placeholder="PLZ" />
+                <Form.Control type="text" placeholder="PLZ eingeben" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formTelefonnummer">
                 <Form.Label className="fw-semibold">Telefonnummer</Form.Label>
-                <Form.Control type="tel" placeholder="Telefonnummer" />
+                <Form.Control type="tel" placeholder="Telefonnummer eingeben" />
               </Form.Group>
             </Col>
             <Col md={6}>
               <Form.Group className="mb-3" controlId="formFirma">
                 <Form.Label className="fw-semibold">Firma</Form.Label>
-                <Form.Control type="text" placeholder="Firma" />
+                <Form.Control type="text" placeholder="Firma eingeben" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formName">
                 <Form.Label className="fw-semibold">Name</Form.Label>
-                <Form.Control type="text" placeholder="Name" />
+                <Form.Control type="text" placeholder="Name eingeben" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formHausnummer">
                 <Form.Label className="fw-semibold">Hausnummer</Form.Label>
-                <Form.Control type="text" placeholder="Hausnummer" />
+                <Form.Control type="text" placeholder="Hausnummer eingeben" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formOrt">
                 <Form.Label className="fw-semibold">Ort</Form.Label>
-                <Form.Control type="text" placeholder="Ort" />
+                <Form.Control type="text" placeholder="Ort eingeben" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formEmail">
                 <Form.Label className="fw-semibold">
@@ -65,7 +65,7 @@ const KontaktForm = () => {
                 </Form.Label>
                 <Form.Control
                   type="email"
-                  placeholder="E-Mail Adresse"
+                  placeholder="E-Mail Adresse eingeben"
                   required
                 />
               </Form.Group>
@@ -83,7 +83,7 @@ const KontaktForm = () => {
                 <Form.Control
                   as="textarea"
                   rows={5}
-                  placeholder="Ihre Nachricht"
+                  placeholder="Nachricht eingeben"
                 />
               </Form.Group>
               <Form.Group className="mb-3 d-flex" controlId="formDatenschutz">
